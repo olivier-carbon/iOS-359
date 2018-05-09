@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF5482720A2E30600340AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5482620A2E30600340AD9 /* AppDelegate.swift */; };
+		0BF5482920A2E30600340AD9 /* LevitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5482820A2E30600340AD9 /* LevitationViewController.swift */; };
+		0BF5482C20A2E30600340AD9 /* LevitationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5482A20A2E30600340AD9 /* LevitationViewController.storyboard */; };
+		0BF5482E20A2E30900340AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5482D20A2E30900340AD9 /* Assets.xcassets */; };
+		0BF5483120A2E30900340AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5482F20A2E30900340AD9 /* LaunchScreen.storyboard */; };
+		0BF5483C20A2E30900340AD9 /* Magpie_Arkera_SketchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5483B20A2E30900340AD9 /* Magpie_Arkera_SketchTests.swift */; };
+		0BF5484720A2E30900340AD9 /* Magpie_Arkera_SketchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5484620A2E30900340AD9 /* Magpie_Arkera_SketchUITests.swift */; };
+		0BF5485520A2E41800340AD9 /* LevitationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5485420A2E41800340AD9 /* LevitationViewModel.swift */; };
+		0BF5485820A2E45800340AD9 /* SwiftCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5485720A2E45800340AD9 /* SwiftCore.swift */; };
+		0BF5485B20A2E49900340AD9 /* LevitationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5485A20A2E49900340AD9 /* LevitationModel.swift */; };
+		0BF5485E20A2E4ED00340AD9 /* LevitationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5485D20A2E4ED00340AD9 /* LevitationCoordinator.swift */; };
+		0BF5486020A2EC0000340AD9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5485F20A2EC0000340AD9 /* WelcomeViewController.swift */; };
+		0BF5486220A2EC5D00340AD9 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5486120A2EC5D00340AD9 /* WelcomeViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BF5483820A2E30900340AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF5481B20A2E30600340AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF5482220A2E30600340AD9;
+			remoteInfo = "Magpie-Arkera-Sketch";
+		};
+		0BF5484320A2E30900340AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF5481B20A2E30600340AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF5482220A2E30600340AD9;
+			remoteInfo = "Magpie-Arkera-Sketch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BF5482320A2E30600340AD9 /* Magpie-Arkera-Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magpie-Arkera-Sketch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF5482620A2E30600340AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BF5482820A2E30600340AD9 /* LevitationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitationViewController.swift; sourceTree = "<group>"; };
+		0BF5482B20A2E30600340AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LevitationViewController.storyboard; sourceTree = "<group>"; };
+		0BF5482D20A2E30900340AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BF5483020A2E30900340AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BF5483220A2E30900340AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF5483720A2E30900340AD9 /* Magpie-Arkera-SketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magpie-Arkera-SketchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF5483B20A2E30900340AD9 /* Magpie_Arkera_SketchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magpie_Arkera_SketchTests.swift; sourceTree = "<group>"; };
+		0BF5483D20A2E30900340AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF5484220A2E30900340AD9 /* Magpie-Arkera-SketchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magpie-Arkera-SketchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF5484620A2E30900340AD9 /* Magpie_Arkera_SketchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magpie_Arkera_SketchUITests.swift; sourceTree = "<group>"; };
+		0BF5484820A2E30900340AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF5485420A2E41800340AD9 /* LevitationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitationViewModel.swift; sourceTree = "<group>"; };
+		0BF5485720A2E45800340AD9 /* SwiftCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCore.swift; sourceTree = "<group>"; };
+		0BF5485A20A2E49900340AD9 /* LevitationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitationModel.swift; sourceTree = "<group>"; };
+		0BF5485D20A2E4ED00340AD9 /* LevitationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitationCoordinator.swift; sourceTree = "<group>"; };
+		0BF5485F20A2EC0000340AD9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = "/Users/obutler/Code/Magpie-Arkera-Sketch/Magpie-Arkera-Sketch/Views/Welcome/WelcomeViewController.swift"; sourceTree = "<absolute>"; };
+		0BF5486120A2EC5D00340AD9 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BF5482020A2E30600340AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF5483420A2E30900340AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF5483F20A2E30900340AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF5481A20A2E30600340AD9 = {
+			isa = PBXGroup;
+			children = (
+				0BF5482520A2E30600340AD9 /* Magpie-Arkera-Sketch */,
+				0BF5483A20A2E30900340AD9 /* Magpie-Arkera-SketchTests */,
+				0BF5484520A2E30900340AD9 /* Magpie-Arkera-SketchUITests */,
+				0BF5482420A2E30600340AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BF5482420A2E30600340AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5482320A2E30600340AD9 /* Magpie-Arkera-Sketch.app */,
+				0BF5483720A2E30900340AD9 /* Magpie-Arkera-SketchTests.xctest */,
+				0BF5484220A2E30900340AD9 /* Magpie-Arkera-SketchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BF5482520A2E30600340AD9 /* Magpie-Arkera-Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5482620A2E30600340AD9 /* AppDelegate.swift */,
+				0BF5485720A2E45800340AD9 /* SwiftCore.swift */,
+				0BF5485920A2E48300340AD9 /* Models */,
+				0BF5485C20A2E4D900340AD9 /* Views */,
+				0BF5482D20A2E30900340AD9 /* Assets.xcassets */,
+				0BF5482F20A2E30900340AD9 /* LaunchScreen.storyboard */,
+				0BF5483220A2E30900340AD9 /* Info.plist */,
+			);
+			path = "Magpie-Arkera-Sketch";
+			sourceTree = "<group>";
+		};
+		0BF5483A20A2E30900340AD9 /* Magpie-Arkera-SketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5483B20A2E30900340AD9 /* Magpie_Arkera_SketchTests.swift */,
+				0BF5483D20A2E30900340AD9 /* Info.plist */,
+			);
+			path = "Magpie-Arkera-SketchTests";
+			sourceTree = "<group>";
+		};
+		0BF5484520A2E30900340AD9 /* Magpie-Arkera-SketchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5484620A2E30900340AD9 /* Magpie_Arkera_SketchUITests.swift */,
+				0BF5484820A2E30900340AD9 /* Info.plist */,
+			);
+			path = "Magpie-Arkera-SketchUITests";
+			sourceTree = "<group>";
+		};
+		0BF5485620A2E41D00340AD9 /* Levitation */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5482A20A2E30600340AD9 /* LevitationViewController.storyboard */,
+				0BF5485420A2E41800340AD9 /* LevitationViewModel.swift */,
+				0BF5482820A2E30600340AD9 /* LevitationViewController.swift */,
+			);
+			path = Levitation;
+			sourceTree = "<group>";
+		};
+		0BF5485920A2E48300340AD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5485A20A2E49900340AD9 /* LevitationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BF5485C20A2E4D900340AD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5486320A2EC6200340AD9 /* Welcome */,
+				0BF5485620A2E41D00340AD9 /* Levitation */,
+				0BF5485D20A2E4ED00340AD9 /* LevitationCoordinator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BF5486320A2EC6200340AD9 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5485F20A2EC0000340AD9 /* WelcomeViewController.swift */,
+				0BF5486120A2EC5D00340AD9 /* WelcomeViewController.storyboard */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BF5482220A2E30600340AD9 /* Magpie-Arkera-Sketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF5484B20A2E30900340AD9 /* Build configuration list for PBXNativeTarget "Magpie-Arkera-Sketch" */;
+			buildPhases = (
+				0BF5481F20A2E30600340AD9 /* Sources */,
+				0BF5482020A2E30600340AD9 /* Frameworks */,
+				0BF5482120A2E30600340AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magpie-Arkera-Sketch";
+			productName = "Magpie-Arkera-Sketch";
+			productReference = 0BF5482320A2E30600340AD9 /* Magpie-Arkera-Sketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BF5483620A2E30900340AD9 /* Magpie-Arkera-SketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF5484E20A2E30900340AD9 /* Build configuration list for PBXNativeTarget "Magpie-Arkera-SketchTests" */;
+			buildPhases = (
+				0BF5483320A2E30900340AD9 /* Sources */,
+				0BF5483420A2E30900340AD9 /* Frameworks */,
+				0BF5483520A2E30900340AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF5483920A2E30900340AD9 /* PBXTargetDependency */,
+			);
+			name = "Magpie-Arkera-SketchTests";
+			productName = "Magpie-Arkera-SketchTests";
+			productReference = 0BF5483720A2E30900340AD9 /* Magpie-Arkera-SketchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BF5484120A2E30900340AD9 /* Magpie-Arkera-SketchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF5485120A2E30900340AD9 /* Build configuration list for PBXNativeTarget "Magpie-Arkera-SketchUITests" */;
+			buildPhases = (
+				0BF5483E20A2E30900340AD9 /* Sources */,
+				0BF5483F20A2E30900340AD9 /* Frameworks */,
+				0BF5484020A2E30900340AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF5484420A2E30900340AD9 /* PBXTargetDependency */,
+			);
+			name = "Magpie-Arkera-SketchUITests";
+			productName = "Magpie-Arkera-SketchUITests";
+			productReference = 0BF5484220A2E30900340AD9 /* Magpie-Arkera-SketchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BF5481B20A2E30600340AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Olivier Butler";
+				TargetAttributes = {
+					0BF5482220A2E30600340AD9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0BF5483620A2E30900340AD9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0BF5482220A2E30600340AD9;
+					};
+					0BF5484120A2E30900340AD9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0BF5482220A2E30600340AD9;
+					};
+				};
+			};
+			buildConfigurationList = 0BF5481E20A2E30600340AD9 /* Build configuration list for PBXProject "Magpie-Arkera-Sketch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BF5481A20A2E30600340AD9;
+			productRefGroup = 0BF5482420A2E30600340AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BF5482220A2E30600340AD9 /* Magpie-Arkera-Sketch */,
+				0BF5483620A2E30900340AD9 /* Magpie-Arkera-SketchTests */,
+				0BF5484120A2E30900340AD9 /* Magpie-Arkera-SketchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BF5482120A2E30600340AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF5486220A2EC5D00340AD9 /* WelcomeViewController.storyboard in Resources */,
+				0BF5483120A2E30900340AD9 /* LaunchScreen.storyboard in Resources */,
+				0BF5482E20A2E30900340AD9 /* Assets.xcassets in Resources */,
+				0BF5482C20A2E30600340AD9 /* LevitationViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF5483520A2E30900340AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF5484020A2E30900340AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF5481F20A2E30600340AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF5485820A2E45800340AD9 /* SwiftCore.swift in Sources */,
+				0BF5485B20A2E49900340AD9 /* LevitationModel.swift in Sources */,
+				0BF5482920A2E30600340AD9 /* LevitationViewController.swift in Sources */,
+				0BF5485520A2E41800340AD9 /* LevitationViewModel.swift in Sources */,
+				0BF5482720A2E30600340AD9 /* AppDelegate.swift in Sources */,
+				0BF5485E20A2E4ED00340AD9 /* LevitationCoordinator.swift in Sources */,
+				0BF5486020A2EC0000340AD9 /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF5483320A2E30900340AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF5483C20A2E30900340AD9 /* Magpie_Arkera_SketchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF5483E20A2E30900340AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF5484720A2E30900340AD9 /* Magpie_Arkera_SketchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BF5483920A2E30900340AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BF5482220A2E30600340AD9 /* Magpie-Arkera-Sketch */;
+			targetProxy = 0BF5483820A2E30900340AD9 /* PBXContainerItemProxy */;
+		};
+		0BF5484420A2E30900340AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BF5482220A2E30600340AD9 /* Magpie-Arkera-Sketch */;
+			targetProxy = 0BF5484320A2E30900340AD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BF5482A20A2E30600340AD9 /* LevitationViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BF5482B20A2E30600340AD9 /* Base */,
+			);
+			name = LevitationViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		0BF5482F20A2E30900340AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BF5483020A2E30900340AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BF5484920A2E30900340AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BF5484A20A2E30900340AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BF5484C20A2E30900340AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72ED3JCT8Z;
+				INFOPLIST_FILE = "Magpie-Arkera-Sketch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "olivierCarbon.Magpie-Arkera-Sketch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BF5484D20A2E30900340AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72ED3JCT8Z;
+				INFOPLIST_FILE = "Magpie-Arkera-Sketch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "olivierCarbon.Magpie-Arkera-Sketch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BF5484F20A2E30900340AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72ED3JCT8Z;
+				INFOPLIST_FILE = "Magpie-Arkera-SketchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "olivierCarbon.Magpie-Arkera-SketchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magpie-Arkera-Sketch.app/Magpie-Arkera-Sketch";
+			};
+			name = Debug;
+		};
+		0BF5485020A2E30900340AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72ED3JCT8Z;
+				INFOPLIST_FILE = "Magpie-Arkera-SketchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "olivierCarbon.Magpie-Arkera-SketchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magpie-Arkera-Sketch.app/Magpie-Arkera-Sketch";
+			};
+			name = Release;
+		};
+		0BF5485220A2E30900340AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72ED3JCT8Z;
+				INFOPLIST_FILE = "Magpie-Arkera-SketchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "olivierCarbon.Magpie-Arkera-SketchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magpie-Arkera-Sketch";
+			};
+			name = Debug;
+		};
+		0BF5485320A2E30900340AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72ED3JCT8Z;
+				INFOPLIST_FILE = "Magpie-Arkera-SketchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "olivierCarbon.Magpie-Arkera-SketchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magpie-Arkera-Sketch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BF5481E20A2E30600340AD9 /* Build configuration list for PBXProject "Magpie-Arkera-Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF5484920A2E30900340AD9 /* Debug */,
+				0BF5484A20A2E30900340AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF5484B20A2E30900340AD9 /* Build configuration list for PBXNativeTarget "Magpie-Arkera-Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF5484C20A2E30900340AD9 /* Debug */,
+				0BF5484D20A2E30900340AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF5484E20A2E30900340AD9 /* Build configuration list for PBXNativeTarget "Magpie-Arkera-SketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF5484F20A2E30900340AD9 /* Debug */,
+				0BF5485020A2E30900340AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF5485120A2E30900340AD9 /* Build configuration list for PBXNativeTarget "Magpie-Arkera-SketchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF5485220A2E30900340AD9 /* Debug */,
+				0BF5485320A2E30900340AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BF5481B20A2E30600340AD9 /* Project object */;
+}

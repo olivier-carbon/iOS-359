@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="i1b-yw-jQi">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" id="PCB-GS-3bZ" customClass="WelcomeViewController" customModule="Magpie_Arkera_Sketch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rdD-0c-Gbm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W E L C O M E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3H-fA-yCh">
+                                <rect key="frame" x="113.5" y="175" width="149.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Yn5-vf-ibY">
+                                <rect key="frame" x="87.5" y="288.5" width="200" height="90"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2NW-3R-7FF">
+                                        <rect key="frame" x="0.0" y="0.0" width="50.5" height="90"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXa-kZ-R0S">
+                                        <rect key="frame" x="74.5" y="0.0" width="51" height="90"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="knV-ty-YOf">
+                                        <rect key="frame" x="149.5" y="0.0" width="50.5" height="90"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="8ze-jX-aeV"/>
+                                    <constraint firstAttribute="width" constant="200" id="fla-nt-o0R"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COL-Xl-e9M">
+                                <rect key="frame" x="109.5" y="413" width="155" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="COL-Xl-e9M" firstAttribute="centerX" secondItem="rdD-0c-Gbm" secondAttribute="centerX" id="8F0-2v-WrA"/>
+                            <constraint firstItem="COL-Xl-e9M" firstAttribute="top" secondItem="Yn5-vf-ibY" secondAttribute="bottom" constant="34.5" id="FKS-ly-Trd"/>
+                            <constraint firstItem="Yn5-vf-ibY" firstAttribute="top" secondItem="A3H-fA-yCh" secondAttribute="bottom" constant="84.5" id="ZMj-Mo-1mv"/>
+                            <constraint firstItem="A3H-fA-yCh" firstAttribute="centerX" secondItem="rdD-0c-Gbm" secondAttribute="centerX" id="eHg-07-l3x"/>
+                            <constraint firstItem="Yn5-vf-ibY" firstAttribute="centerY" secondItem="rdD-0c-Gbm" secondAttribute="centerY" id="k5g-j8-hHi"/>
+                            <constraint firstItem="Yn5-vf-ibY" firstAttribute="centerX" secondItem="rdD-0c-Gbm" secondAttribute="centerX" id="lgp-kN-7ag"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZAq-y0-xhV"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Tsj-GX-PLU" appends="YES" id="5aR-Ze-bEG"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t0m-bu-Y3w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Tsj-GX-PLU">
+                    <connections>
+                        <action selector="didTapView:" destination="PCB-GS-3bZ" id="pfx-Qe-ctV"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-199" y="-326"/>
+        </scene>
+    </scenes>
+</document>
